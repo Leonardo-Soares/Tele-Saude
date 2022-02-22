@@ -1,13 +1,13 @@
 <?php
   /**
-   * Template Name: Sobre
+   * Template Name: Comunicação
    */
 
   get_header();
 ?>
 
 <main>
-  <h1>Sobre</h1>
+  <h1>Comunicação</h1>
   
 </main>
 

@@ -41,19 +41,19 @@
       <div class="container collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav  mb-2 mb-lg-0 p-2">
           <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="#">Início</a>
+            <a class="nav-link" style="color: #fff;" aria-current="page" href="/">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="#">Quem Somos</a>
+            <a class="nav-link" style="color: #fff;" aria-current="page" href="/quem-somos/">Quem Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="#">Serviços</a>
+            <a class="nav-link" style="color: #fff;" aria-current="page" href="/servicos">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="#">Comunicação</a>
+            <a class="nav-link" style="color: #fff;" aria-current="page" href="/comunicacao">Comunicação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="#">Fale Conosco</a>
+            <a class="nav-link" style="color: #fff;" aria-current="page" href="/fale-conosco">Fale Conosco</a>
           </li>
         </ul>
         <!-- <form class="d-flex">

@@ -87,9 +87,9 @@
         </div>
       </div>
     </div>
+
     <div class="col-12 col-xl-10 col-xxxl-8 offset-xl-1 offset-xxxl-2 pt-5 px-4 px-sm-5 px-xl-0">
       <div class="row ">
-
         <div class="col-lg-6">
           <h2>Agenda e Eventos</h2>
 
@@ -192,6 +192,74 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-12 col-xl-10 col-xxxl-8 offset-xl-1 offset-xxxl-2 pt-5 px-4 px-sm-5 px-xl-0">
+      <div class="row ">
+        <h2 class="text-center">Nossos Parceiros</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-group">
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-group">
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-group">
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+                <div class="card">
+                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="card-img-top p-5" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
