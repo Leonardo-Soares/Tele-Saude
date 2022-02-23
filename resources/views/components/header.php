@@ -23,7 +23,7 @@
       </a>
       <a class="navbar-brand pe-5" href="#">
         <i class="far fa-file-alt"></i>
-       Protocolo
+        Protocolo
       </a>
 
       <a class="navbar-brand" href="#">
@@ -35,10 +35,9 @@
   </nav>
 
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="menu container-fluid" style="background-color: #95C11F;">
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-      <div class="container collapse navbar-collapse" id="navbarTogglerDemo02">
+  <nav class="navbar navbar-expand-sm">
+    <div class="menu container-fluid justify-content-end" style="background-color: #95C11F;">
+      <div class="container collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav  mb-2 mb-lg-0 p-2">
           <li class="nav-item">
             <a class="nav-link" style="color: #fff;" aria-current="page" href="/">Início</a>
@@ -56,11 +55,13 @@
             <a class="nav-link" style="color: #fff;" aria-current="page" href="/fale-conosco">Fale Conosco</a>
           </li>
         </ul>
-        <!-- <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form> -->
       </div>
+      <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i style="font-size: 20px; color: white;" class="fas fa-bars"></i>
+      </button>
     </div>
   </nav>
+
 </header><!-- header -->
