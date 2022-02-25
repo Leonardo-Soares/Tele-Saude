@@ -5,10 +5,10 @@
 
       <div class="d-flex flex-column align-items-center align-items-lg-start">
         <div class="copyright">
-          © Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
+          © Copyright <strong><span>Tele Saúde</span></strong>. Todos os direitos reservados
         </div>
-        <div class="credits">
-          Desenvolvido por <a href="https://leonardo-soares.github.io/Leonardo-Soares/">Leonardo Soares</a>
+        <div class="credits" style="font-size: 15px;">
+          Desenvolvido por <a style="color: black !important; font-size: 15px;" href="https://leonardo-soares.github.io/Leonardo-Soares/">Leonardo Soares</a>
         </div>
       </div>
 

@@ -7,8 +7,11 @@
 ?>
 
 <main>
-  <h1>Comunicação</h1>
-  
+
+  <div class="container">
+    <h1>Sobre</h1>
+  </div>
+
 </main>
 
 <?php

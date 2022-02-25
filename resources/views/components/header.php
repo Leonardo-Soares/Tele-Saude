@@ -42,14 +42,37 @@
           <li class="nav-item">
             <a class="nav-link" style="color: #fff;" aria-current="page" href="/">Início</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="/quem-somos/">Quem Somos</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Quem Somos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #95C11F;">
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href="/quemsomos">O TeleSaúde</a></li>
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href="/equipe">A Equipe</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="/servicos">Serviços</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Serviços
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #95C11F;">
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href="/tele-educacao">Tele-Educação</a></li>
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href="/teleconsultria">Teleconsultoria</a></li>
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href="/telediagnostico">Telediagnóstico</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" style="color: #fff;" aria-current="page" href="/comunicacao">Comunicação</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Comunicação
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #95C11F;">
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href=""></a></li>
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href="/"></a></li>
+              <li><a style="font-size: 1.6rem;" class="dropdown-item" href="/"></a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color: #fff;" aria-current="page" href="/fale-conosco">Fale Conosco</a>

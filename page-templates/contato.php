@@ -6,9 +6,15 @@
   get_header();
 ?>
 
-<main>
-  <h1>Fale Conosco</h1>
-  
+<main style="margin-top: 30px;">
+  <div class="container">
+    <h1>
+      <?= get_the_title(); ?>
+    </h1>
+
+    <br>
+    <?php the_content(); ?>
+  </div>
 </main>
 
 <?php
