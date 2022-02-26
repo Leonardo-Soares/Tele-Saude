@@ -2,6 +2,35 @@ a {
   color: white !important;
 }
 
+.navbar {
+  .menu {
+    background-color: #95C11F;
+
+    ul {
+      :hover {
+        background-color: #C48F27;
+      }
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      a {
+        color: #fff;
+      }
+
+      ul {
+        background-color: #95C11F;
+        border: none;
+        font-size: 16px;
+        :hover {
+          background-color: #C48F27;
+        }
+      }
+    }
+  }
+}
+
 nav {
   background-color: #C51A1B; 
 }
@@ -14,4 +43,9 @@ nav {
     color: #fff;
     font-size: 20px;
   }
+}
+
+.navbar-toggler {
+  color: #fff;
+  font-size: 20px;
 }
