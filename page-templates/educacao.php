@@ -1,6 +1,6 @@
 <?php
   /**
-   * Template Name: Telediagnóstico
+   * Template Name: Educação
    */
 
   get_header();
@@ -12,7 +12,6 @@
       <?= get_the_title(); ?>
     </h1>
 
-    <br>
     <?php the_content(); ?>
   </div>
 </main>

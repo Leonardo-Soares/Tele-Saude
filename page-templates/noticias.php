@@ -1,6 +1,6 @@
 <?php
   /**
-   * Template Name: Tele-Educação
+   * Template Name: Notícias
    */
 
   get_header();
@@ -12,6 +12,7 @@
       <?= get_the_title(); ?>
     </h1>
 
+    <br>
     <?php the_content(); ?>
   </div>
 </main>

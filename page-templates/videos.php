@@ -1,6 +1,6 @@
 <?php
   /**
-   * Template Name: Teleconsultoria
+   * Template Name: Vídeos
    */
 
   get_header();

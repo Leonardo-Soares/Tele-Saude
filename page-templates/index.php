@@ -5,48 +5,51 @@
         <div class="row justify-content-center">
           <div class="col-lg-2 d-flex align-content-center justify-content-center">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col-12 ">
-                <a href="">
-                  <div class="card">
-                    <div class="card-body" style="background-color: #1A336D;">
-                      <h5 class="card-title p-4 text-center text-white">Tele-Educação</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
               <div class="col-12">
-                <a href="">
-                  <div class="card">
-                    <div class="card-body " style="background-color: #C51A1B;">
-                      <h5 class="card-title p-4 text-center text-white">Teleatendimento</h5>
-                    </div>
-                  </div>
-                </a>
-
-              </div>
-
-              <div class="col-12">
-                <a href="">
-                  <div class="card">
-                    <div class="card-body" style="background-color: #C48F27;">
-                      <h5 class="card-title p-4 text-center text-white">Teleconsultoria</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-12">
-                <a href="">
-                  <div class="card">
+                <a title="Diagnóstico" href="/telediagnostico">
+                  <div class="card diagnostico">
                     <div class="card-body" style="background-color: #95C11F;">
-                      <h5 class="card-title p-4 text-center text-white">Telediagnóstico</h5>
+                      <h5 class="card-title p-4 text-center text-white">Diagnóstico</h5>
                     </div>
                   </div>
                 </a>
               </div>
+
+              <div class="col-12">
+                <a title="Atendimento" href="/teleatendimento">
+                  <div class="card atendimento">
+                    <div class="card-body " style="background-color: #C51A1B;">
+                      <h5 class="card-title p-4 text-center text-white" title="Facebook">Atendimento</h5>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div class="col-12">
+                <a title="Consultoria" href="/teleconsultria">
+                  <div class="card consultoria">
+                    <div class="card-body" style="background-color: #C48F27;">
+                      <h5 class="card-title p-4 text-center text-white">Consultoria</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12 ">
+                <a title="Educação" href="/tele-educacao">
+                  <div class="card educacao">
+                    <div class="card-body" style="background-color: #1A336D;">
+                      <h5 class="card-title p-4 text-center text-white" title="Tele-Educação">Educação</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+
             </div>
           </div>
-          <div class="col-lg-10 mt-2">
+          <div class="col-lg-8 mt-2">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -97,7 +100,7 @@
 
     <div class="col-12 col-xl-10 col-xxxl-8 offset-xl-1 offset-xxxl-2 pt-5 px-4 px-sm-5 px-xl-0">
       <div class="row ">
-        <div id="eventos" class="col-lg-6">
+        <div id="eventos" class="col-lg-12">
           <h2>Agenda e Eventos</h2>
 
           <div class="card mb-3" style="max-width: 540px;">
