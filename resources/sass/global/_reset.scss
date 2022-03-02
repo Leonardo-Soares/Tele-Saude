@@ -6,6 +6,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+  overflow-x: hidden;
   
   /**
    * Custom scrollbar
@@ -19,7 +20,7 @@ html {
   }
   
   &::-webkit-scrollbar-thumb {
-    background-color: color(--primary);
+    background-color: #1a336c;
     outline: none;
     border-radius: 0rem;
   }

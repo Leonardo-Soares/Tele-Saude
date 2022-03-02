@@ -98,7 +98,70 @@
       </div>
     </div>
 
-    <div class="col-12 col-xl-10 col-xxxl-8 offset-xl-1 offset-xxxl-2 pt-5 px-4 px-sm-5 px-xl-0">
+
+    <div class="m-5 p-5"></div>
+
+    <div class="row " style="background-color: #a2d7e5;">
+      <div class="container m-5">
+        <div class="container p-3 fw-bold text-white"
+          style="background-color: #c41a1b; border-radius: 5px; font-size: 20px">EVENTOS</div>
+        <div class="container pt-5" style="background-color: #fff;">
+          <div class="row">
+            <div class="col-lg-12">
+
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-lg-1">
+                    <span style="font-size: 16px; background-color: #ffe62f; color: #000;"
+                      class="badge w-100 h-100 d-flex justify-content-center align-items-center">07 <br> FEV </span>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="card-body">
+                      <p class="card-text fw-bold" style="color: #000; margin-bottom: 0px;">
+                        14h - CONGRESSO - Universidade Federal do Pará
+                      </p>
+                      <p class="card-text" style="color: #000;">
+                        Dra. Ana Maria Silva
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 d-flex justify-content-center align-items-center">
+                    <button class="btn"
+                      style="background-color: #FFE60F; border: none;border-radius: 7px;box-shadow: 2px 3px 8px rgb(0 0 0 / 25%);color: #fff;display: inline-block;font-size: 16px;font-weight: 700;padding: 12px 16px;">INSCREVA-SE</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-lg-1">
+                    <span style="font-size: 16px; background-color: #ffe62f; color: #000;"
+                      class="badge w-100 h-100 d-flex justify-content-center align-items-center">07 <br> FEV </span>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="card-body">
+                      <p class="card-text fw-bold" style="color: #000; margin-bottom: 0px;">
+                        14h - CONGRESSO - Universidade Federal do Pará
+                      </p>
+                      <p class="card-text" style="color: #000;">
+                        Dra. Ana Maria Silva
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 d-flex justify-content-center align-items-center">
+                    <button class="btn"
+                      style="background-color: #FFE60F; border: none;border-radius: 7px;box-shadow: 2px 3px 8px rgb(0 0 0 / 25%);color: #fff;display: inline-block;font-size: 16px;font-weight: 700;padding: 12px 16px;">INSCREVA-SE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="col-12 col-xl-10 col-xxxl-8 offset-xl-1 offset-xxxl-2 pt-5 px-4 px-sm-5 px-xl-0">
       <div class="row ">
         <div id="eventos" class="col-lg-12">
           <h2>Agenda e Eventos</h2>
@@ -249,7 +312,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </main><!-- main -->
