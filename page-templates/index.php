@@ -4,44 +4,37 @@
       <div class="col-12 col-xl-10 col-xxxl-8 offset-xl-1 offset-xxxl-2 px-4 px-sm-5 px-xl-0">
         <div class="row justify-content-center">
           <div class="col-lg-2 d-flex align-content-center justify-content-center">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col-12">
-                <a title="Diagnóstico" href="/telediagnostico">
+            <div class="cards-services row row-cols-1 row-cols-md-3 g-4">
+
+              <div class="col-12" id="diagnostico">
+                <a href="/diagnostico" aria-label=" Telediagnóstico: serviço que utiliza a web para realizar serviços de apoio e troca de informações entre profissionais da saúde para o fechamento de diagnóstico." >
                   <div class="card diagnostico">
-                    <div class="card-body" style="background-color: #95C11F;">
-                      <h5 class="card-title p-4 text-center text-white">Diagnóstico</h5>
-                    </div>
+                    <img src="<?= __IMGDIR; ?>/diagnostico.jpeg" class="d-block w-100" alt="...">
                   </div>
                 </a>
               </div>
 
-              <div class="col-12">
-                <a title="Atendimento" href="/teleatendimento">
+              <div class="col-12" id="atendimento">
+                <a href="/atendimento" aria-label="Teleatendimento: atendimento realizado pela web, entre profissionais de saúde e também com pacientes, para oferecer mais agilidade no atendimento, permitir acesso á saúde com conveniência e segurança, além de reduzir o número de pessoas que transitam em hospitais e clínicas." >
                   <div class="card atendimento">
-                    <div class="card-body " style="background-color: #C51A1B;">
-                      <h5 class="card-title p-4 text-center text-white" title="Facebook">Atendimento</h5>
-                    </div>
+                    <img src="<?= __IMGDIR; ?>/atendimento.jpeg" class="d-block w-100" alt="...">
                   </div>
                 </a>
 
               </div>
 
-              <div class="col-12">
-                <a title="Consultoria" href="/teleconsultria">
+              <div class="col-12" id="consultoria">
+                <a href="/consultria" aria-label="Teleconsultoria: consulta realizada entre profissionais da saúde, pela web, com o objetivo de esclarecer dúvidas sobre procedimentos clínicos e ações de saúde em geral.">
                   <div class="card consultoria">
-                    <div class="card-body" style="background-color: #C48F27;">
-                      <h5 class="card-title p-4 text-center text-white">Consultoria</h5>
-                    </div>
+                    <img src="<?= __IMGDIR; ?>/consultoria.jpeg" class="d-block w-100" alt="...">
                   </div>
                 </a>
               </div>
 
-              <div class="col-12 ">
-                <a title="Educação" href="/tele-educacao">
+              <div class="col-12 " id="educacao">
+                <a href="/educacao" aria-label="Teleducação: conferências, aulas, cursos e disponibilização de objetos de aprendizagem interativos, por meio da web, sobre temas relacionados à saúde.">
                   <div class="card educacao">
-                    <div class="card-body" style="background-color: #1A336D;">
-                      <h5 class="card-title p-4 text-center text-white" title="Tele-Educação">Educação</h5>
-                    </div>
+                    <img src="<?= __IMGDIR; ?>/educacao.jpeg" class="d-block w-100" alt="...">
                   </div>
                 </a>
               </div>
@@ -82,16 +75,6 @@
                   </div>
                 </div>
               </div>
-              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span sclass="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button> -->
             </div>
           </div>
         </div>
@@ -289,8 +272,9 @@
         </div>
       </div>
     </div>
+    -->
 
-
+    <!--
     <div class="col-12 col-xl-10 col-xxxl-8 offset-xl-1 offset-xxxl-2 pt-5 px-4 px-sm-5 px-xl-0">
       <div class="row ">
         <h2 class="text-center">Nossos Parceiros</h2>
@@ -301,12 +285,6 @@
                 <div class="card">
                   <img src="<?= __IMGDIR; ?>/parceiros/parceiros.png" class="card-img-top" alt="...">
                 </div>
-                <!-- <div class="card">
-                  <img src="<?= __IMGDIR; ?>/parceiros/ufpa.png" class="card-img-top p-5" alt="...">
-                </div>
-                <div class="card">
-                  <img src="<?= __IMGDIR; ?>/parceiros/ebserh.png" class="card-img-top p-5" alt="...">
-                </div> -->
               </div>
             </div>
           </div>

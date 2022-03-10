@@ -43,3 +43,135 @@
 
   }
 }
+
+#diagnostico{
+  a {
+    color: #e92c6c;
+    text-decoration:none;
+    font-weight:bold
+    }
+    
+    [aria-label] {
+    position: relative;
+    }
+    
+    [aria-label]::after {
+    content: attr(aria-label);
+    display: none;
+    position: absolute;
+    // top: 110%;
+    left: 0px;
+    width: 500px;
+    z-index: 5000;
+    pointer-events: none;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: .9em;
+    color: #fff;
+    background-color: #95C11F;
+    border-radius: 12px;
+    }
+    
+    [aria-label]:hover::after {
+    display: block;
+    }
+}
+
+#consultoria{
+  a {
+    color: #e92c6c;
+    text-decoration:none;
+    font-weight:bold
+    }
+    
+    [aria-label] {
+    position: relative;
+    }
+    
+    [aria-label]::after {
+    content: attr(aria-label);
+    display: none;
+    position: absolute;
+    // top: 110%;
+    left: 0px;
+    width: 500px;
+    z-index: 5000;
+    pointer-events: none;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: .9em;
+    color: #fff;
+    background-color: #C48F27;
+    border-radius: 12px;
+    }
+    
+    [aria-label]:hover::after {
+    display: block;
+    }
+}
+
+#atendimento{
+  a {
+    color: #e92c6c;
+    text-decoration:none;
+    font-weight:bold
+    }
+    
+    [aria-label] {
+    position: relative;
+    }
+    
+    [aria-label]::after {
+    content: attr(aria-label);
+    display: none;
+    position: absolute;
+    // top: 110%;
+    left: 0px;
+    width: 500px;
+    z-index: 5000;
+    pointer-events: none;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: .9em;
+    color: #fff;
+    background-color: #C51A1B;
+    border-radius: 12px;
+    }
+    
+    [aria-label]:hover::after {
+    display: block;
+    }
+}
+
+#educacao{
+  a {
+    color: #e92c6c;
+    text-decoration:none;
+    font-weight:bold
+    }
+    
+    [aria-label] {
+    position: relative;
+    }
+    
+    [aria-label]::after {
+    content: attr(aria-label);
+    display: none;
+    position: absolute;
+    // top: 110%;
+    left: 0px;
+    width: 500px;
+    z-index: 5000;
+    pointer-events: none;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: .9em;
+    color: #fff;
+    background-color: #1A336D;
+    border-radius: 12px;
+    }
+    
+    [aria-label]:hover::after {
+    display: block;
+    }
+}
