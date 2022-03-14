@@ -7,7 +7,7 @@
             <div class="cards-services row row-cols-1 row-cols-md-3 g-4">
 
               <div class="col-12" id="diagnostico">
-                <a href="/diagnostico" aria-label=" Telediagnóstico: serviço que utiliza a web para realizar serviços de apoio e troca de informações entre profissionais da saúde para o fechamento de diagnóstico." >
+                <a href="/diagnostico" aria-label="Telediagnóstico: serviço que utiliza a web para realizar serviços de apoio e troca de informações entre profissionais da saúde para o fechamento de diagnóstico." >
                   <div class="card diagnostico">
                     <img src="<?= __IMGDIR; ?>/diagnostico.jpeg" class="d-block w-100" alt="...">
                   </div>
@@ -15,7 +15,7 @@
               </div>
 
               <div class="col-12" id="atendimento">
-                <a href="/atendimento" aria-label="Teleatendimento: atendimento realizado pela web, entre profissionais de saúde e também com pacientes, para oferecer mais agilidade no atendimento, permitir acesso á saúde com conveniência e segurança, além de reduzir o número de pessoas que transitam em hospitais e clínicas." >
+                <a href="/atendimento" aria-label="Teleatendimento: atendimento realizado pela web, entre profissionais de saúde e também com pacientes, para oferecer mais agilidade no atendimento, permitir acesso à saúde com conveniência e segurança, além de reduzir o número de pessoas que transitam em hospitais e clínicas." >
                   <div class="card atendimento">
                     <img src="<?= __IMGDIR; ?>/atendimento.jpeg" class="d-block w-100" alt="...">
                   </div>
@@ -32,7 +32,7 @@
               </div>
 
               <div class="col-12 " id="educacao">
-                <a href="/educacao" aria-label="Teleducação: conferências, aulas, cursos e disponibilização de objetos de aprendizagem interativos, por meio da web, sobre temas relacionados à saúde.">
+                <a href="/educacao" aria-label="Tele-educação: conferências, aulas, cursos e disponibilização de objetos de aprendizagem interativos, por meio da web, sobre temas relacionados à saúde.">
                   <div class="card educacao">
                     <img src="<?= __IMGDIR; ?>/educacao.jpeg" class="d-block w-100" alt="...">
                   </div>

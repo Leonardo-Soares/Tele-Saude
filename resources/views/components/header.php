@@ -48,7 +48,7 @@
               Quem Somos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/quemsomos">O TeleSaúde</a></li>
+              <li><a class="dropdown-item" href="/quemsomos">O Telessaúde</a></li>
               <li><a class="dropdown-item" href="/equipe">A Equipe</a></li>
             </ul>
           </li>
