@@ -2,10 +2,10 @@
   <nav class="navbar navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="<?= __IMGDIR; ?>/header/logo.jpeg" alt="" width="100">
+        <img src="<?= __IMGDIR; ?>/header/logo-2.png" alt="" width="180">
       </a>
       <a class="navbar-brand">
-        <img src="<?= __IMGDIR; ?>/header/parceiros.png" alt="" width="350">
+        <img src="<?= __IMGDIR; ?>/header/parceiros.jpg" alt="" >
       </a>
     </div>
   </nav>

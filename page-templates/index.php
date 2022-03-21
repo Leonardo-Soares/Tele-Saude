@@ -7,7 +7,7 @@
             <div class="cards-services row row-cols-1 row-cols-md-3 g-4">
 
               <div class="col-12" id="diagnostico">
-                <a href="/diagnostico" aria-label="Telediagnóstico: serviço que utiliza a web para realizar serviços de apoio e troca de informações entre profissionais da saúde para o fechamento de diagnóstico." >
+                <a href="/diagnostico" aria-label="Telediagnóstico: serviço que utiliza a web para possibilitar apoio e troca de informações entre profissionais da saúde para o fechamento de diagnóstico." >
                   <div class="card diagnostico">
                     <img src="<?= __IMGDIR; ?>/diagnostico.jpeg" class="d-block w-100" alt="...">
                   </div>
