@@ -105,6 +105,17 @@ ul {
     list-style: none;
 }
 
+// OCULTANDO PROXIMOS POSTS EM DETALHES DE NOTÍCIAS
+.nav-previous {
+  display: none !important;
+}
+
+.nav-next {
+  display: none !important;
+}
+
+
+
 /* Animations */
 @keyframes floating {
     0% {
