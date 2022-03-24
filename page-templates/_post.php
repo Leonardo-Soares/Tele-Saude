@@ -83,10 +83,10 @@
 
 
 
-      <?php
+      <!-- <?php
         // Comentários
         include_once( _DIR .'/inc/comments.php' );
-      ?>
+      ?> -->
     </div>
   </main>
   </main><!-- #main -->
