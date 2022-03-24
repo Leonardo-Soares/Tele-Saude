@@ -7,7 +7,8 @@
             <div class="cards-services row row-cols-1 row-cols-md-3 g-4">
 
               <div class="col-12" id="diagnostico">
-                <a href="/diagnostico" aria-label="Telediagnóstico: serviço que utiliza a web para possibilitar apoio e troca de informações entre profissionais da saúde para o fechamento de diagnóstico." >
+                <a href="/diagnostico"
+                  aria-label="Telediagnóstico: serviço que utiliza a web para possibilitar apoio e troca de informações entre profissionais da saúde para o fechamento de diagnóstico.">
                   <div class="card diagnostico">
                     <img src="<?= __IMGDIR; ?>/diagnostico.jpeg" class="d-block w-100" alt="...">
                   </div>
@@ -15,7 +16,8 @@
               </div>
 
               <div class="col-12" id="atendimento">
-                <a href="/atendimento" aria-label="Teleatendimento: atendimento realizado pela web, entre profissionais de saúde e também com pacientes, para oferecer mais agilidade no atendimento, permitir acesso à saúde com conveniência e segurança, além de reduzir o número de pessoas que transitam em hospitais e clínicas." >
+                <a href="/atendimento"
+                  aria-label="Teleatendimento: atendimento realizado pela web, entre profissionais de saúde e também com pacientes, para oferecer mais agilidade no atendimento, permitir acesso à saúde com conveniência e segurança, além de reduzir o número de pessoas que transitam em hospitais e clínicas.">
                   <div class="card atendimento">
                     <img src="<?= __IMGDIR; ?>/atendimento.jpeg" class="d-block w-100" alt="...">
                   </div>
@@ -24,7 +26,8 @@
               </div>
 
               <div class="col-12" id="consultoria">
-                <a href="/consultria" aria-label="Teleconsultoria: consulta realizada entre profissionais da saúde, pela web, com o objetivo de esclarecer dúvidas sobre procedimentos clínicos e ações de saúde em geral.">
+                <a href="/consultria"
+                  aria-label="Teleconsultoria: consulta realizada entre profissionais da saúde, pela web, com o objetivo de esclarecer dúvidas sobre procedimentos clínicos e ações de saúde em geral.">
                   <div class="card consultoria">
                     <img src="<?= __IMGDIR; ?>/consultoria.jpeg" class="d-block w-100" alt="...">
                   </div>
@@ -32,7 +35,8 @@
               </div>
 
               <div class="col-12 " id="educacao">
-                <a href="/educacao" aria-label="Tele-educação: conferências, aulas, cursos e disponibilização de objetos de aprendizagem interativos, por meio da web, sobre temas relacionados à saúde.">
+                <a href="/educacao"
+                  aria-label="Tele-educação: conferências, aulas, cursos e disponibilização de objetos de aprendizagem interativos, por meio da web, sobre temas relacionados à saúde.">
                   <div class="card educacao">
                     <img src="<?= __IMGDIR; ?>/educacao.jpeg" class="d-block w-100" alt="...">
                   </div>
@@ -54,25 +58,38 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Notícias</h5>
-                    <p>Fevereiro Roxo busca conscientizar sobre Lúpus, Fibromialgia e Alzheimer </p>
-                  </div>
+                  <a href="/2022/03/23/vacinacao-contra-sarampo-e-influenza-comeca-em-4-de-abril/">
+                    <img src="<?= __IMGDIR; ?>/marcelo-camargo-agência-brasil.jpg" class="d-block w-100" alt="...">
+                  </a>
+                  <a href="/2022/03/23/vacinacao-contra-sarampo-e-influenza-comeca-em-4-de-abril/">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Notícias</h5>
+                      <p> Vacinação contra sarampo e influenza começa em 4 de abril </p>
+                    </div>
+                  </a>
+
                 </div>
                 <div class="carousel-item">
-                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Notícias</h5>
-                    <p>Fevereiro Roxo busca conscientizar sobre Lúpus, Fibromialgia e Alzheimer .</p>
-                  </div>
+                  <a href="/2022/03/09/fevereiro-roxo-busca-conscientizar-sobre-lupus-fibromialgia-e-alzheimer">
+                    <img src="<?= __IMGDIR; ?>/img1.jpg" class="d-block w-100" alt="...">
+                  </a>
+                  <a href="/2022/03/09/fevereiro-roxo-busca-conscientizar-sobre-lupus-fibromialgia-e-alzheimer">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Notícias</h5>
+                      <p>Fevereiro Roxo busca conscientizar sobre Lúpus, Fibromialgia e Alzheimer .</p>
+                    </div>
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img src="<?= __IMGDIR; ?>/img1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Notícias</h5>
-                    <p>Fevereiro Roxo busca conscientizar sobre Lúpus, Fibromialgia e Alzheimer </p>
-                  </div>
+                  <a href="/2022/03/21/campanha-fevereiro-laranja-conscientiza-sobre-a-leucemia%ef%bf%bc/">
+                    <img src="<?= __IMGDIR; ?>/imagemgovbr.jpeg" class="d-block w-100" alt="...">
+                  </a>
+                  <a href="/2022/03/21/campanha-fevereiro-laranja-conscientiza-sobre-a-leucemia%ef%bf%bc/">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Notícias</h5>
+                      <p> Campanha Fevereiro Laranja conscientiza sobre a leucemia </p>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
