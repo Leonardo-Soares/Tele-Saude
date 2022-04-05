@@ -14,6 +14,10 @@
 
     <br>
     <?php the_content(); ?>
+
+    <div class="text-center mt-2 mb-2">
+      <a href=""> <button class="btn btn-primary"> Acessar Atendimento </button></a>
+    </div>
   </div>
 </main>
 
