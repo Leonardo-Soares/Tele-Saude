@@ -99,7 +99,7 @@
     </div>
 
 
-    <div class="m-5 p-5"></div>
+    <div class="m-2 p-2"></div>
 
     <div class="row " style="background-color: #a2d7e5;">
       <div class="container m-5">
