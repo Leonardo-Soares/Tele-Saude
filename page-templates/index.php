@@ -108,7 +108,6 @@
         <div class="container pt-5" style="background-color: #fff;">
           <div class="row">
             <div class="col-lg-12">
-
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-lg-1">
@@ -158,6 +157,70 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-7 pt-5">
+        <div class="container p-2 mb-4" style="background-color: #6b8f08; border-radius: 4px;">
+          <h1 style="color: #fff; font-size: 24px;">WEBPALESTRAS</h1>
+        </div>
+        <div class="row" style="display: flex; justify-content: space-between;">
+          <?php
+            $args = array(
+              // 'post_type' => 'projeto',
+              'posts_per_page' => 3,
+              'orderby' => 'date',
+              'order' => 'DESC',
+              'category_name' => 'Webpalestra'
+            );
+
+            $query = new WP_Query($args);
+            
+            if ( $query->have_posts() ) :
+              while ( $query->have_posts() ) :
+                $query->the_post(); 
+            ?>
+          <div class="col-4 mb-5">
+            <div class="card h-100" style="background-color: #3f5405;">
+              <img style="mix-blend-mode: luminosity; " src="<?php the_post_thumbnail_url(); ?>"
+                alt="<?php echo the_title(); ?>">
+              <div class="card-body"
+                style="padding: 10px 10px 10px 5px; background-color: #6b8f08; border-radius: 0px;">
+                <h4 class="card-title">
+                  <a style="color: #fff !important; font-size: 20px;" href="<?= get_the_permalink(); ?>">
+                    <?= get_the_title(); ?>
+                  </a>
+                </h4>
+              </div>
+
+              <!-- RESUMO/DESCRIÇÃO -->
+              <!-- <div class="__excerpt">
+                  <p>
+                    <?= get_the_excerpt(); ?>
+                  </p>
+                </div> -->
+            </div>
+          </div>
+          <?php
+          endwhile;
+        endif; ?>
+
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="container pt-5" style="text-align: start;">
+          <div class="container p-2 mb-4" style="background-color: #1a366d; border-radius: 4px;">
+            <h1 style="color: #fff; font-size: 24px;">REDES SOCIAIS</h1>
+          </div>
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+          <div class="elfsight-app-2aabc50b-8dfc-4844-aa2f-b0355b221187"></div>
+        </div>
+      </div>
+
+    </div>
+
 
 
 
