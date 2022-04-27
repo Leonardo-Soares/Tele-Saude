@@ -127,8 +127,10 @@ if ( ! function_exists( 'larapress_post_thumbnail' ) ) :
 		if ( is_singular() ) :
 			?>
 
-			<div class="post-thumbnail">
-				<?php the_post_thumbnail(); ?>
+			<div class="post-thumbnail text-center">
+				<div class="container">
+					<img style="height: 400px;" src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo the_title(); ?>">
+				</div>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
